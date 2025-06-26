@@ -67,24 +67,27 @@ p {
 
 .social-icon {
   a {
-    width: 37px;
-    height: 37px;
+    width: 75px;
+    height: auto;
     border-radius: 8px;
-    background-color: #FFF3;
-    border: 1px solid #FFF4;
+    background-color: rgba(255, 255, 255, 0.096);
+    border: 1px solid rgba(255, 255, 255, 0.034);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 6px 8px;
   }
 }
 
 .social-icon a svg {
-  width: 24px;
-  height: auto;
+  width: auto;
+  height: 24px;
   fill: var(--color-primary);
 }
 
 a {
+  margin: 10px;
   color: var(--color-primary);
   text-decoration: none;
 }
