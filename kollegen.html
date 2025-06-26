@@ -84,7 +84,7 @@
         <input type="date" id="geburtstag" name="geburtstag" min="1900-01-01" max="2025-12-31"><br><br>
 
         <label for="alter">Alter:</label><br>
-        <input type="number" id="alter" name="alter" min="10" max="100"><br><br>
+        <input type="number" id="alter" name="alter" min="0" max="125"><br><br>
 
         <label for="passwort">Passwort:</label><br>
         <input type="password" id="passwort" name="passwort" required minlength="6" maxlength="20" placeholder="Mind. 6 Zeichen"><br><br>
@@ -93,13 +93,10 @@
         <textarea id="beschreibung" name="beschreibung" rows="4" cols="40" maxlength="500" placeholder="Beschreibe dich..."></textarea><br><br>
 
         <label for="datum">Datum:</label><br>
-        <input type="date" id="datum" name="datum" min="1900-01-01" max="2025-12-31" value="2025-06-06" readonly><br><br>
+        <input type="date" id="datum" name="datum" value="2025-06-06" readonly><br><br>
       </fieldset>
       <fieldset>
         <legend>Optionen</legend>
-        
-        <label for="farbe">Lieblingsfarbe:</label><br>
-        <input type="color" id="farbe" name="farbe"><br><br>
 
         <label for="browser">Lieblingsbrowser:</label><br>
         <select id="browser" name="browser">
